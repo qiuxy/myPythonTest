@@ -38,6 +38,6 @@ while (True):
     data.append(num + aaa + '\n')
     # time.sleep(1)
 
-file_object = open('data/qxc.txt', 'w')
+file_object = open('qxc.txt', 'w')
 file_object.writelines(data)
 file_object.close()
